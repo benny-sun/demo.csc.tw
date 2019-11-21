@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
+}
+
+/*
+ * 2017/12/04
+ * 放大grid的修改和刪除按鈕
+ */
+.table .fa-edit,
+.table .fa-trash {
+    font-size: 24px;
+}
+
+.table tr,
+.table td {
+    font-size: 20px;
+}
+
+/*
+ * 2017/12/05
+ * sidebar的字體大小
+ */
+.sidebar-menu .treeview {
+    font-size: 20px;
+}
+
+.sidebar-menu .treeview-menu>li>a {
+    font-size: 16px;
+}
+
+/*
+ * 2018/02/10
+ * 訪客停留時間table
+ */
+.box-body>.table th:nth-child(2) {
+    text-align: right;
+}
+.box-body>.table td:nth-child(2) {
+    color: green;
+    text-align: right;
+}

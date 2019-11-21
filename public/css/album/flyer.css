@@ -1,0 +1,258 @@
+/* ==========================================================================
+Global Styles
+Created by Haogood
+2019-07-27
+========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    max-width: 720px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* Background image settings */
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.swiper-slide .contents {
+    color: #fff;
+    text-align: left;
+    min-width: 100%;
+    padding: 14px 50px;
+    position: absolute;
+    bottom: 10%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.swiper-slide .contents h4 {
+    margin: .4rem 0;
+}
+
+.swiper-slide .contents p {
+    word-break: break-all;
+    margin: 0;
+}
+
+.swiper-slide .contents .btn {
+    margin-left: 10px;
+    padding: 1px 8px;
+}
+
+.swiper-slide .cover {
+    position: relative;
+    width: 80%;
+    height: 90%;
+}
+
+.swiper-slide .cover-header {
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: table;
+}
+
+.swiper-slide .cover-header .logo {
+    width: 100%;
+    height: auto;
+    display: table-caption;
+}
+
+.swiper-slide .cover-header .logo img {
+    width: 45%;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+.swiper-slide .cover-header .text {
+    color: #fff;
+}
+
+.swiper-slide .cover-header .text h3 {
+    margin: .5rem 0;
+}
+
+.swiper-slide .cover-footer,
+.swiper-slide .cover-footer-back {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    display: flex;
+}
+
+.swiper-slide .cover-footer-back {
+    justify-content: flex-end;
+}
+
+.swiper-slide .cover-footer .left-panel {
+    width: 70%
+}
+
+.swiper-slide .cover-footer-back .left-panel {
+    width: 110px;
+    font-size: 16px;
+}
+
+.swiper-slide .cover-footer .right-panel,
+.swiper-slide .cover-footer-back .right-panel {
+    width: 30%
+}
+
+.swiper-slide .cover-footer .left-panel .name,
+.swiper-slide .cover-footer-back .left-panel .name {
+    display: table;
+    padding-bottom: 10px;
+}
+
+.swiper-slide .cover-footer .left-panel .logo,
+.swiper-slide .cover-footer-back .left-panel .logo {
+    display: table-row;
+}
+
+.swiper-slide .cover-footer .left-panel .contact-info,
+.swiper-slide .cover-footer-back .left-panel .contact-info {
+    text-align: left;
+}
+
+.swiper-slide .cover-footer .left-panel .contact-info h6,
+.swiper-slide .cover-footer-back .left-panel .contact-info h6 {
+    margin: 0;
+    font-size: 13px;
+}
+
+.swiper-slide .cover-footer .logo img, 
+.swiper-slide .cover-footer-back .logo img {
+    width: 100%;
+}
+
+.swiper-slide .cover-footer .title,
+.swiper-slide .cover-footer-back .title {
+    display: table-row;
+}
+
+.swiper-slide .cover-footer .right-panel .social-media,
+.swiper-slide .cover-footer-back .right-panel .social-media {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide .cover-footer .right-panel .social-media .icon {
+    width: 100%;
+    display: table-row;
+}
+
+.swiper-slide .cover-footer .right-panel .social-media img{
+    width: 50px;
+    float: right;
+}
+
+.cover {
+    display: flex;
+}
+
+.cover .center-panel {
+    display: inline-table;
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.cover .center-panel .info {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+.cover .center-panel .social-share {
+    display: flex;
+    justify-content: center;
+}
+
+.cover .center-panel .social-share img {
+    max-height: 40px;
+    max-width: 40px;
+    margin: 6px;
+}
+
+.cover-footer-back .tel:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    content: "\f095";
+    margin-right: 5px;
+}
+
+.cover .contact-info .email:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    content: "\f003";
+    margin-right: 5px;
+}
+
+.white-border {
+    display: inline-block;
+    border: 1.6px solid white;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+
+.text-yellow {
+    color: #ebb134 !important;
+}
+
+@media screen and (min-width: 412px) {
+    .swiper-slide {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}

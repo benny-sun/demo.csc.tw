@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
+}
+
+@media screen and (min-width: 1750px) {
+    .container {
+        width: initial;
+    }
+}
+section {
+    padding-bottom: 6px;
+    background-color: #c2c2c2;
+}
+section .bg-white {
+    background-color: white;
+}
+.row {
+    min-height: 100vh;
+}
+.row div img {
+    min-width: 30%;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+}
+.row > .col-lg-6 {
+    padding: 0;
+}
+.field, .field-cover {
+    min-height: 100vh;
+}
+.field-cover .cover > div {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.field-cover .cover-font {
+    width: 100%;
+    height: 100%;
+}
+.field-cover .catelog-text {
+    margin-top: auto;
+    display: initial;
+    width: auto;
+    color: rgba(255,255,255, 0.8);
+}
+.field-cover .catelog-text h1 {
+    font-size: 20px;
+    margin: 0;
+}
+.field-cover .catelog-text h2 {
+    font-size: 16px;
+    margin: 0;
+}
+.field-cover .cover-logo {
+    min-width: initial;
+    width: 35%;
+    height: 150%;
+}
+hr {
+    background-color: dimgrey;
+    color: dimgrey;
+    border: solid 1px dimgrey;
+    margin: 0;
+}
+.cover {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cover > img {
+    padding: 0;
+}
+.content {
+    color: black;
+    max-width: 65%;
+    word-break: break-all;
+}
+.content p {
+    text-align: justify;    /* 左右對齊 */
+    font-size: 18px;
+}
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.content > img {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    padding-top: 10vh;
+}
+h1 > small {
+    font-size: 14px;
+    padding-left: 10px;
+}
+.dark-screen {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+a {
+    text-decoration: none;
+}
+.tab-content {
+    min-height: 30vh;
+}
+.loader-logo {
+    width: 22%;
+}
+
+/* ---版一--- */
+.sectionA .sectionA-info {
+    height: 100%;
+    max-width: initial;
+    color: #1b1b1b;
+    word-break: break-all;
+    padding: 0 100px 0 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sectionA-info div {
+    width: 100%;
+}
+.sectionA .sectionA-frame {
+    height: 50%;
+    overflow: hidden;
+}
+.sectionA .lg-div {
+    overflow: hidden;
+}
+.sectionA .lg-div img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: initial;
+}
+.sectionA sectionA-frame img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ----------版二---------- */
+.blade2 .content {
+    max-width: initial;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.blade2 .content div {
+    width: 70%;
+}
+.blade2 h1 {
+    margin: 0px 0 20px 0;
+}
+/* ----------版四---------- */
+.blade4 {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+.blade4 > div {
+    padding: 50px;
+    margin: 0 auto;
+    position:absolute;
+    left: 11%;
+    top: 20%;
+    background: rgba(0,0,0, 0.5);
+}
+.blade4 > div h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 36pt;
+}
+.blade4 > div h2 {
+    margin: 0;
+    font-size: 24pt;
+    padding-bottom: 6px;
+}
+.blade4 p{
+    padding-left: 0;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+/* ----------補丁---------- */
+#section-contact div.row {
+    min-height: initial;
+    padding: initial;
+    display: initial;
+    align-items: initial;
+}
+
+/* bootstrap 4 樣式的按鈕 */
+.btn-outline-dark {
+    color: #343a40;
+    background-color: transparent;
+    background-image: none;
+    border-color: #343a40;
+    padding: 4px 18px;
+}
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+/* 置中彈出的圖片視窗 */
+.ekko-lightbox {
+    display: flex;
+    align-items: center;
+}
+
+/* ---mobile--- */
+@media screen and (max-width: 768px) {
+    .field {
+        min-height: 50vh;
+    }
+    .content > h1 {
+        font-size: 26pt;
+        margin-bottom: 0;
+    }
+    h1 > small {
+        font-size: 10px;
+        padding-left: 6px;
+    }
+    .content h1 {
+        font-size: 18px;
+        margin-bottom: 0;
+        padding-bottom: 6px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    .content > img {
+        padding-top: 0;
+    }
+    .tab-width{
+        width: 50%;
+    }
+    .tab-content {
+        min-height: 80vh;
+    }
+    .loader-logo {
+        width: 50%;
+    }
+    .mobile {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .mobile2 {
+        max-width: 100vw;
+        max-height: 100vh;
+        overflow: hidden;
+        text-indent: -150%;
+        left: initial;
+    }
+    .mobile2 img {
+        max-width: initial !important;
+        width: initial !important;
+        height: 100vh !important;
+    }
+    .blade4 > div {
+        top: 25%;
+        width: auto;
+        left: 5%;
+        padding: 25px;
+    }
+    .blade4 > div h1 {
+        font-size: 28px;
+    }
+    .blade4 > div h2 {
+        font-size: 24px;
+    }
+    .blade4 p {
+        line-height: 18px;
+        font-size: 12px;
+    }
+
+    .sectionA .sectionA-info {
+        padding: 0px 50px 0px 50px;
+    }
+
+    .sectionA .lg-div img {
+        max-width: 100%;
+    }
+
+    .field-cover .cover > div {
+
+    }
+    .field-cover .cover-logo {
+        width: 40%;
+    }
+    .field-cover .catelog-text h1 {
+        font-size: 12px;
+    }
+    .field-cover .catelog-text h2 {
+        font-size: 9px;
+    }
+
+    .btn-outline-dark {
+        padding: 1px 10px;
+        font-size: 10px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .field {
+        min-height: 50vh;
+    }
+    .content h1 {
+        font-size: 20px;
+    }
+    .content h1 small {
+        font-size: 11px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    .content > img {
+        padding-top: 0;
+    }
+    .row {
+        min-height: 100vh;
+    }
+    .cover-logo {
+        width: 5vw;
+    }
+    .mobile2 {
+        text-indent: -120%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .field {
+        min-height: 35vh;
+    }
+    .field-cover {
+        min-height: initial;
+    }
+    .content > h1 {
+        font-size: 30pt;
+    }
+    .content > img {
+        padding-top: 0;
+    }
+    .content > p {
+        font-weight: 300;
+        font-size: 12pt;
+    }
+    #all > section {
+        height: auto;
+    }
+    .row {
+        min-height: initial;
+        display: flex;
+        align-items: stretch;
+    }
+    .row div img {
+        min-width: 10%;
+    }
+    .cover-logo {
+        width: 30% !important;
+    }
+
+    .blade4 > div {
+        top: 20%;
+    }
+    .blade4 > div h2 {
+        font-size: 24px;
+    }
+    .blade4 > div h1 {
+        font-size: 32px;
+    }
+    .blade4 p {
+        padding-left: 18px;
+        line-height: 32px;
+        font-size: 18px;
+    }
+    .field-cover .catelog-text h1 {
+        font-size: 14px;
+    }
+    .field-cover .catelog-text h2 {
+        font-size: 11px;
+    }
+    .field-cover .cover-font {
+        width: 80%;
+    }
+
+    .mobile2 {
+        text-indent: 0;
+    }
+
+}
+@media screen and (min-width: 1200px) and (max-width: 3000px) {
+    .container {
+        width: 100%;
+    }
+    .row {
+        min-height: initial;
+        display: flex;
+        align-items: stretch;
+    }
+}
+

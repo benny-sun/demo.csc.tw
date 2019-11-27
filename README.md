@@ -12,6 +12,11 @@
 
 ---
 
+#### Backstage
+- URL: https://demo.csc.tw/admin
+- User: admin
+- Password: 123456
+
 ### Main packages
 #### Backend
 - Laravel 5.5.22

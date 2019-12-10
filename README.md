@@ -1,14 +1,14 @@
+### Describtion
+> This project is for demonstration. See the production site: https://csc.tw
+
+---
+
 ### User Interface
 
 |                    Forestage                     |                    Backstage                    |
 | :-----------------------------------------: | :----------------------------------------: |
 | ![image](./screenshots/demo_frontend_1.png) | ![image](./screenshots/demo_backend_1.png) |
 | ![image](./screenshots/demo_frontend_2.png) | ![image](./screenshots/demo_backend_2.png) |
-
----
-
-### Describtion
-> The demo webiste of [Concepoint company](https://csc.tw).
 
 ---
 
